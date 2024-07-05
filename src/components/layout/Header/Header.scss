@@ -2,17 +2,19 @@ header {
   position: sticky;
   top: 0;
   left: 0;
-  z-index: 999;
+  z-index: 9;
 }
 .header {
   &__overlay {
+    cursor: pointer;
     width: 100%;
     height: 100vh;
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 9;
     display: none;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(50, 50, 50, 0.578);
 
     &__show {
       display: block;
@@ -45,7 +47,7 @@ header {
     display: flex;
     align-items: center;
     gap: 10px;
-    z-index: 999;
+    z-index: 9999;
 
     li {
       padding: 20px;

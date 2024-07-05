@@ -12,7 +12,7 @@ import PhoneImg from "../../../assets/phone.svg"
 const Header:FC = () => {
 
     const [show, setShow]= useState<boolean>(false)
-    
+ 
   return (
     <Fragment>
         <div className={`header__overlay ${show ? 'header__overlay__show' : ''}`  }
